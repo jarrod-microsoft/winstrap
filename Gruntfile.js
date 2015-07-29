@@ -112,7 +112,7 @@ module.exports = function (grunt) {
         files: ['src/doc/**/*', 'src/js/*.js'],
         tasks: ['jshint', 'assemble', 'copy:doc']
       },
-      
+
       configFiles: {
         files: ['gruntfile.js'],
         options: {
@@ -189,7 +189,6 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-livereload');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-file-exists');
   grunt.loadNpmTasks('grunt-bump');
